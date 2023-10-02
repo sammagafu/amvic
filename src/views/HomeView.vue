@@ -102,8 +102,8 @@
                     <div>
                         <div class="relative">
                             <div class="text-center">
-                                <span class="inline-flex relative z-0 bg-blue-500/10 dark:bg-blue-100/5 h-24 w-24 items-center justify-center" style="border-radius: 28% 72% 50% 50%/26% 20% 80% 74%;">
-                                  <img src="@/assets/img/icons/rating-stars.svg" alt="">
+                                <span class="inline-flex relative z-0 bg-blue-500/10 dark:bg-blue-100/5 h-32 w-32 items-center justify-center" style="border-radius: 28% 72% 50% 50%/26% 20% 80% 74%;">
+                                  <img src="@/assets/img/icons/rating-stars.svg" alt="" class="p-6">
                                 </span>
                                 <h5 class="text-xl font-semibold mb-3 mt-5">Expertise and Experience</h5>
                                 <p class="text-base font-normal text-gray-500">Benefit from our industry expertise, gained through years of experience in insurance, construction, and banking sectors.</p>
@@ -114,8 +114,8 @@
                     <div>
                         <div class="relative">
                             <div class="text-center">
-                                <span class="inline-flex relative z-0 bg-emerald-500/10 dark:bg-emerald-100/5 h-24 w-24 items-center justify-center" style="border-radius: 28% 72% 50% 50%/26% 20% 80% 74%;">
-                                  <img src="@/assets/img/icons/unique.svg" alt="">
+                                <span class="inline-flex relative z-0 bg-emerald-500/10 dark:bg-emerald-100/5 h-32 w-32 items-center justify-center" style="border-radius: 28% 72% 50% 50%/26% 20% 80% 74%;">
+                                  <img src="@/assets/img/icons/unique.svg" alt="" class="p-6">
                                 </span>
                                 <h5 class="text-xl font-semibold mb-3 mt-5">Unique products</h5>
                                 <p class="text-gray-600 dark:text-gray-400">We tailor insurance solutions to your unique needs, whether it's personal, commercial, or industry-specific coverage.</p>
@@ -125,8 +125,8 @@
 
                     <div>
                         <div class="text-center">
-                            <span class="inline-flex relative z-0 bg-amber-500/10 dark:bg-amber-100/5 h-24 w-24 items-center justify-center" style="border-radius: 28% 72% 50% 50%/26% 20% 80% 74%;">
-                              <img src="@/assets/img/icons/group.svg" alt="">
+                            <span class="inline-flex relative z-0 bg-amber-500/10 dark:bg-amber-100/5 h-32 w-32 items-center justify-center" style="border-radius: 28% 72% 50% 50%/26% 20% 80% 74%;">
+                              <img src="@/assets/img/icons/group.svg" alt="" class="p-6">
                             </span>
                             <h5 class="text-xl font-semibold mb-3 mt-5">Customer-Centric</h5>
                             <p class="text-gray-600 dark:text-gray-400">Our commitment to excellent customer care ensures you're not just a policyholder but a valued partner in securing your future.</p>
@@ -199,11 +199,16 @@
         <h1 class="text-3xl/tight font-medium mt-3 mb-4">We are backed by</h1>
       </div>
       <div class="mt-14">
-        <div class="grid md:grid-cols-4 grid-cols-2 gap-2 items-center aos-init" data-aos="fade-up">
-          <div><img src="@/assets/img/partners/uap.png" alt="brand-logo" class="w-32 mx-auto"></div>
-          <div><img src="@/assets/img/partners/jubilee.png" alt="brand-logo" class="w-32 mx-auto"></div>
-          <div><img src="@/assets/img/partners/sanlam.png" alt="brand-logo" class="w-32 mx-auto"></div>
-          <div><img src="@/assets/img/partners/jubilee.png" alt="brand-logo" class="w-32 mx-auto"></div>
+        <div class="grid md:grid-cols-9 grid-cols-2 gap-2 items-center aos-init" data-aos="fade-up">
+          <div><img src="@/assets/img/partners/jubilee.png" alt="brand-logo" class="w-32 mx-auto grayscale hover:filter-none"></div>
+          <div><img src="@/assets/img/partners/icea.png" alt="brand-logo" class="w-32 mx-auto grayscale hover:filter-none"></div>
+          <div><img src="@/assets/img/partners/uap.png" alt="brand-logo" class="w-32 mx-auto grayscale hover:filter-none"></div>
+          <div><img src="@/assets/img/partners/sanlam.png" alt="brand-logo" class="w-32 mx-auto grayscale hover:filter-none"></div>
+          <div><img src="@/assets/img/partners/mayfair.png" alt="brand-logo" class="w-32 mx-auto grayscale hover:filter-none"></div>
+          <div><img src="@/assets/img/partners/phoenix.png" alt="brand-logo" class="w-32 mx-auto grayscale hover:filter-none"></div>
+          <div><img src="@/assets/img/partners/heritage.png" alt="brand-logo" class="w-32 mx-auto grayscale hover:filter-none"></div>
+          <div><img src="@/assets/img/partners/assembly.png" alt="brand-logo" class="w-32 mx-auto grayscale hover:filter-none"></div>
+          <div><img src="@/assets/img/partners/strategis.png" alt="brand-logo" class="w-32 mx-auto grayscale hover:filter-none"></div>
         </div>
       </div>
     </div>
@@ -260,16 +265,13 @@
           </div>
           <div style="opacity: 1; transform: none;">
             <h2 class="font-display text-base font-semibold text-neutral-950">Our offices</h2>
-            <p class="mt-6 text-base text-neutral-600">Prefer doing things in person? We don’t but we have to list our
-              addresses here for legal reasons.</p>
+            <p class="mt-6 text-base text-neutral-600">For your convenience, you can also reach us by filling out our online contact form on our website.
+
+</p>
             <ul role="list" class="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2">
               <li>
                 <address class="text-sm not-italic text-neutral-600"><strong
-                    class="text-neutral-950">Copenhagen</strong><br>1 Carlsberg Gate<br>1260, København, Denmark</address>
-              </li>
-              <li>
-                <address class="text-sm not-italic text-neutral-600"><strong
-                    class="text-neutral-950">Billund</strong><br>24 Lego Allé<br>7190, Billund, Denmark</address>
+                    class="text-neutral-950">Tanzania</strong><br>21 Floor Mwanga Tower <br> New Bagaomo Road, Makubusho<br>Dar es salaam </address>
               </li>
             </ul>
             <div
@@ -277,14 +279,9 @@
               <h2 class="font-display text-base font-semibold text-neutral-950">Email us</h2>
               <dl class="mt-6 grid grid-cols-1 gap-8 text-sm sm:grid-cols-2">
                 <div>
-                  <dt class="font-semibold text-neutral-950">Careers</dt>
+                  <dt class="font-semibold text-neutral-950">information</dt>
                   <dd><a class="text-neutral-600 hover:text-neutral-950"
-                      href="mailto:careers@studioagency.com">careers@studioagency.com</a></dd>
-                </div>
-                <div>
-                  <dt class="font-semibold text-neutral-950">Press</dt>
-                  <dd><a class="text-neutral-600 hover:text-neutral-950"
-                      href="mailto:press@studioagency.com">press@studioagency.com</a></dd>
+                      href="mailto:careers@studioagency.com">info@amvic.co.tz</a></dd>
                 </div>
               </dl>
             </div>
