@@ -1,7 +1,7 @@
 <template>
 <nav class="bg-slate-800 dark:bg-gray-900 fixed w-full z-20 top-0 left-0">
   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-  <a href="https://flowbite.com/" class="flex items-center">
+  <a href="" class="flex items-center">
       <img src="@/assets/logo.svg" class="h-16 mr-3" alt="Flowbite Logo">
   </a>
   <div class="flex md:order-2">

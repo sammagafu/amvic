@@ -2,24 +2,24 @@
 <template>
   <section class="py-36 lg:py-64 w-full table relative bg-center bg-cover custom-section" id="home">
     <div class="absolute inset-0 bg-black opacity-80"></div>
-    <div class="container relative mx-auto">
+    <div class="mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8 container h-full relative">
       <div class="grid grid-cols-1 mt-12">
+        <p class="text-yellow-200 font-medium">Welcome to AMVIC Insuarance Brokers your Partner for</p>
         <h4 class="text-white lg:text-5xl text-4xl lg:leading-normal leading-normal font-medium mb-7 position-relative">
-          Welcome to AMVIC Insuarance Brokers<br>Your Partner for
-            <span class="text-yellow-200 font-bold"><vue-writer :array="insuarance" :typeSpeed="100"></vue-writer></span>
+          <span class="text-yellow-200 font-bold"><vue-writer :array="insuarance" :typeSpeed="100"></vue-writer></span>
         </h4>
         <p class="text-white mb-0 max-w-2xl text-lg">Welcome to AMVIC Insurance Brokers, where your aspirations are our
           utmost priority. As Tanzania's most recent independent insurance brokerage company, we take pride in offering a
           diverse array of insurance products to cater to your unique needs with unparalleled professionalism
         </p>
         <div class="relative mt-10"><a
-            class="p-3 bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white rounded-md">Get
+            class="p-3 bg-yellow-300 hover:bg-yellow-500 border-yellow-600 hover:border-yellow-700 text-slate rounded-md">Get
             Started</a></div>
       </div>
     </div>
   </section>
 
-  <section class="py-48">
+  <section class="my-48">
     <div class="mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
       <div class="grid grid-cols-1 gap-5 xl:gap-10 lg:grid-cols-3 items-center">
         <div class="col-span-1">
@@ -32,7 +32,7 @@
               <span class="relative z-30"><span class="relative z-10"> </span>
                 <svg class="absolute right-0 bottom-1" width="214" height="9" viewBox="0 0 180 9" fill="none"
                   xmlns="http://www.w3.org/2000/svg">
-                  <path d="M3 6C26.9011 3.73613 95.1626 0.566711 177 6" stroke="#DAED1A" stroke-width="6"
+                  <path d="M3 6C26.9011 3.73613 95.1626 0.566711 177 6" stroke="#ffd757" stroke-width="6"
                     stroke-linecap="round"></path>
                 </svg>
               </span>
@@ -47,7 +47,7 @@
         </div>
         <div class="col-span-1">
           <div>
-            <img src="assets/images/about/person.png" class="mx-auto" alt="">
+            <img src="@/assets/img/bg/team.jpg" class="mx-auto" alt="">
           </div>
         </div>
         <div class="col-span-1">
@@ -97,97 +97,194 @@
     </div>
   </section>
 
-<section class="bg-yellow-100">
-  <div class="max-w-screen-xl mx-auto p-4">
-				<div class="hidden md:block text-[55px] leading-[65px] font-medium mb-[100px]">
-					<div class="">We offer personalized and comprehensive insurance solutions to safeguard what matters most in your life.</div>
-					<div class="">Digital Agency Services</div>
-				</div>
-				<a href="#" class="group flex items-center justify-between">
-					<div class="w-[300px] hidden xl:flex">
-						<div class="group/img relative hway">
-							<div class="absolute h-full w-0 group-[.hway-active]/img:w-full bg-[#FF6B00] transition-all duration-[.5s]"></div>
-							<div class="absolute h-full w-0 group-[.hway-active]/img:w-full bg-white transition-all duration-[.5s] group-[.hway-active]/img:delay-[.25s]"></div>
-							<img class="origin-left scale-x-0 group-[.hway-active]/img:scale-x-100 transition-all duration-[.5s] group-[.hway-active]/img:delay-[.5s]" src="https://raw.githubusercontent.com/uiaextend/jvixan/main/expert-digital/01Placeholder.png" alt="">
-						</div>
-					</div>
-					<div class="flex-1 relative">
-						<div class="group-hover:text-[#FF6B00] text-[22px] leading-[22px] font-bold mb-[20px]">Personal Insurance</div>
-						<div class="text-[#454545]">Welcome to our digital agency We specialize in helping business most</div>
-						<div class="text-[#454545]">like yours succeed online. From website design and development to</div>
-						<div class="text-[#454545]">digital marketing agency.</div>
-					</div>
-					<div class="">
-						<img class="rotate-[-45deg] group-hover:rotate-0 group-hover:brightness-100 brightness-0 transition-all duration-[.5s]" src="https://raw.githubusercontent.com/uiaextend/jvixan/main/creative-portfolio/Arrow-30x30.svg" alt="">
-					</div>
-				</a>
-				<div class="xl:ps-[300px] my-[50px]">
-					<div class="border-t border-t-[1px] border-t-[#C1C1C1]"></div>
-				</div>
-				<a href="#" class="group flex items-center justify-between">
-					<div class="w-[300px] hidden xl:flex">
-						<div class="group/img relative hway">
-							<div class="absolute h-full w-0 group-[.hway-active]/img:w-full bg-[#FF6B00] transition-all duration-[.5s]"></div>
-							<div class="absolute h-full w-0 group-[.hway-active]/img:w-full bg-white transition-all duration-[.5s] group-[.hway-active]/img:delay-[.25s]"></div>
-							<img class="origin-left scale-x-0 group-[.hway-active]/img:scale-x-100 transition-all duration-[.5s] group-[.hway-active]/img:delay-[.5s]" src="https://raw.githubusercontent.com/uiaextend/jvixan/main/expert-digital/02Placeholder.png" alt="">
-						</div>
-					</div>
-					<div class="flex-1 relative">
-						<div class="group-hover:text-[#FF6B00] text-[22px] leading-[22px] font-bold mb-[20px]">Web Development</div>
-						<div class="text-[#454545]">Welcome to our digital agency We specialize in helping business most</div>
-						<div class="text-[#454545]">like yours succeed online. From website design and development to</div>
-						<div class="text-[#454545]">digital marketing agency.</div>
-					</div>
-					<div class="">
-						<img class="rotate-[-45deg] group-hover:rotate-0 group-hover:brightness-100 brightness-0 transition-all duration-[.5s]" src="https://raw.githubusercontent.com/uiaextend/jvixan/main/creative-portfolio/Arrow-30x30.svg" alt="">
-					</div>
-				</a>
-				<div class="xl:ps-[300px] my-[50px]">
-					<div class="border-t border-t-[1px] border-t-[#C1C1C1]"></div>
-				</div>
-				<a href="#" class="group flex items-center justify-between">
-					<div class="w-[300px] hidden xl:flex">
-						<div class="group/img relative hway">
-							<div class="absolute h-full w-0 group-[.hway-active]/img:w-full bg-[#FF6B00] transition-all duration-[.5s]"></div>
-							<div class="absolute h-full w-0 group-[.hway-active]/img:w-full bg-white transition-all duration-[.5s] group-[.hway-active]/img:delay-[.25s]"></div>
-							<img class="origin-left scale-x-0 group-[.hway-active]/img:scale-x-100 transition-all duration-[.5s] group-[.hway-active]/img:delay-[.5s]" src="https://raw.githubusercontent.com/uiaextend/jvixan/main/expert-digital/03Placeholder.png" alt="">
-						</div>
-					</div>
-					<div class="flex-1 relative">
-						<div class="group-hover:text-[#FF6B00] text-[22px] leading-[22px] font-bold mb-[20px]">Digital Services</div>
-						<div class="text-[#454545]">Welcome to our digital agency We specialize in helping business most</div>
-						<div class="text-[#454545]">like yours succeed online. From website design and development to</div>
-						<div class="text-[#454545]">digital marketing agency.</div>
-					</div>
-					<div class="">
-						<img class="rotate-[-45deg] group-hover:rotate-0 group-hover:brightness-100 brightness-0 transition-all duration-[.5s]" src="https://raw.githubusercontent.com/uiaextend/jvixan/main/creative-portfolio/Arrow-30x30.svg" alt="">
-					</div>
-				</a>
-				<div class="xl:ps-[300px] my-[50px]">
-					<div class="border-t border-t-[1px] border-t-[#C1C1C1]"></div>
-				</div>
-				<a href="#" class="group flex items-center justify-between">
-					<div class="w-[300px] hidden xl:flex">
-						<div class="group/img relative hway">
-							<div class="absolute h-full w-0 group-[.hway-active]/img:w-full bg-[#FF6B00] transition-all duration-[.5s]"></div>
-							<div class="absolute h-full w-0 group-[.hway-active]/img:w-full bg-white transition-all duration-[.5s] group-[.hway-active]/img:delay-[.25s]"></div>
-							<img class="origin-left scale-x-0 group-[.hway-active]/img:scale-x-100 transition-all duration-[.5s] group-[.hway-active]/img:delay-[.5s]" src="https://raw.githubusercontent.com/uiaextend/jvixan/main/expert-digital/04Placeholder.png" alt="">
-						</div>
-					</div>
-					<div class="flex-1 relative">
-						<div class="group-hover:text-[#FF6B00] text-[22px] leading-[22px] font-bold mb-[20px]">Digital Product Design</div>
-						<div class="text-[#454545]">Welcome to our digital agency We specialize in helping business most</div>
-						<div class="text-[#454545]">like yours succeed online. From website design and development to</div>
-						<div class="text-[#454545]">digital marketing agency.</div>
-					</div>
-					<div class="">
-						<img class="rotate-[-45deg] group-hover:rotate-0 group-hover:brightness-100 brightness-0 transition-all duration-[.5s]" src="https://raw.githubusercontent.com/uiaextend/jvixan/main/creative-portfolio/Arrow-30x30.svg" alt="">
-					</div>
-				</a>
-			</div>
-</section>
+  <section class="my-48">
+    <div class="max-w-screen-xl mx-auto my-24">
+      <div class="hidden md:block text-2xl font-medium mb-[100px]">
+        <div class="font-semibold py-4">Our Services</div>
+        <div class="">We offer personalized and comprehensive insurance solutions to safeguard what matters most in your
+          life.</div>
+      </div>
 
-</template>
+      <div class="mx-auto max-w-7xl px-6 lg:px-8 mt-16">
+        <div class="mx-auto max-w-2xl lg:max-w-none">
+          <div class="lg:flex lg:items-center lg:justify-end">
+            <div class="flex justify-center lg:w-1/2 lg:justify-end lg:pr-12">
+              <div class="w-[33.75rem] flex-none lg:w-[45rem]" style="opacity: 1; transform: none;">
+                <div class="justify-center lg:justify-end relative flex aspect-[719/680] w-full grayscale"><svg
+                    viewBox="0 0 655 680" fill="none" class="h-full">
+                    <g clip-path="url(#:S1:-clip)" class="group">
+                      <g class="origin-center scale-100 transition duration-500 motion-safe:group-hover:scale-105">
+                        <foreignObject width="655" height="680"><img alt="" loading="lazy" width="2400" height="3000"
+                            decoding="async" data-nimg="1" class="w-full bg-neutral-100 object-cover"
+                            style="color:transparent;aspect-ratio:655 / 680" sizes="(min-width: 1024px) 41rem, 31rem"
+                            srcset="@/assets/img/service/health.jpg" src="@/assets/img/service/health.jpg">
+                        </foreignObject>
+                      </g>
+                      <use href="#:S1:-shape" stroke-width="2" class="stroke-neutral-950/10"></use>
+                    </g>
+                    <defs>
+                      <clipPath id=":S1:-clip">
+                        <path id=":S1:-shape"
+                          d="M537.827 9.245A11.5 11.5 0 0 1 549.104 0h63.366c7.257 0 12.7 6.64 11.277 13.755l-25.6 128A11.5 11.5 0 0 1 586.87 151h-28.275a15.999 15.999 0 0 0-15.689 12.862l-59.4 297c-1.98 9.901 5.592 19.138 15.689 19.138h17.275l.127.001c.85.009 1.701.074 2.549.009 11.329-.874 21.411-7.529 24.88-25.981.002-.012.016-.016.023-.007.008.009.022.005.024-.006l24.754-123.771A11.5 11.5 0 0 1 580.104 321h63.366c7.257 0 12.7 6.639 11.277 13.755l-25.6 128A11.5 11.5 0 0 1 617.87 472H559c-22.866 0-28.984 7.98-31.989 25.931-.004.026-.037.035-.052.014-.015-.02-.048-.013-.053.012l-24.759 123.798A11.5 11.5 0 0 1 490.87 631h-29.132a14.953 14.953 0 0 0-14.664 12.021c-4.3 21.502-23.18 36.979-45.107 36.979H83.502c-29.028 0-50.8-26.557-45.107-55.021l102.4-512C145.096 91.477 163.975 76 185.902 76h318.465c10.136 0 21.179-5.35 23.167-15.288l10.293-51.467Zm-512 160A11.5 11.5 0 0 1 37.104 160h63.366c7.257 0 12.7 6.639 11.277 13.755l-25.6 128A11.5 11.5 0 0 1 74.87 311H11.504c-7.257 0-12.7-6.639-11.277-13.755l25.6-128Z"
+                          fill-rule="evenodd" clip-rule="evenodd"></path>
+                      </clipPath>
+                    </defs>
+                  </svg></div>
+              </div>
+            </div>
+            <div>
+              <ul role="list" class="text-base text-neutral-600 mt-16 lg:mt-0 lg:w-1/2 lg:min-w-[33rem] lg:pl-4 ">
+                <li class="my-4 font-medium text-2xl">Motor insurance </li>
+                <li class="my-4 font-medium text-2xl">Health Insurance </li>
+                <li class="my-4 font-medium text-2xl">Fire insurance </li>
+                <li class="my-4 font-medium text-2xl">Travel Insurance </li>
+                <li class="my-4 font-medium text-2xl">Life insurance </li>
+                <li class="my-4 font-medium text-2xl">Engineering insurance </li>
+                <li class="my-4 font-medium text-2xl">Goods in transit insurance </li>
+                <li class="my-4 font-medium text-2xl">Money insurance </li>
+                <li class="my-4 font-medium text-2xl">Bonds </li>
+                <li class="my-4 font-medium text-2xl">Property insurance </li>
+                <li class="my-4 font-medium text-2xl">Business insurance </li>
+                <li class="my-4 font-medium text-2xl">Burglary insurance </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="my-48 lg:pb-20 py-16">
+    <div class="container mx-auto">
+      <div class="text-center"><span class="text-sm bg-primary/10 text-primary rounded-full px-3 py-1">Partners</span>
+        <h1 class="text-3xl/tight font-medium mt-3 mb-4">We are backed by</h1>
+      </div>
+      <div class="mt-14">
+        <div class="grid md:grid-cols-4 grid-cols-2 gap-2 items-center aos-init" data-aos="fade-up">
+          <div><img src="@/assets/img/partners/uap.png" alt="brand-logo" class="w-32 mx-auto"></div>
+          <div><img src="@/assets/img/partners/jubilee.png" alt="brand-logo" class="w-32 mx-auto"></div>
+          <div><img src="@/assets/img/partners/sanlam.png" alt="brand-logo" class="w-32 mx-auto"></div>
+          <div><img src="@/assets/img/partners/jubilee.png" alt="brand-logo" class="w-32 mx-auto"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8 mt-24 sm:mt-32 lg:mt-40">
+      <div class="mx-auto max-w-2xl lg:max-w-none">
+        <div class="grid grid-cols-1 gap-x-8 gap-y-24 lg:grid-cols-2">
+          <div class="lg:order-last" style="opacity: 1; transform: none;">
+            <form>
+              <h2 class="font-display text-base font-semibold text-neutral-950">Work inquiries</h2>
+              <div class="isolate mt-6 -space-y-px rounded-2xl bg-white/50">
+                <div class="group relative z-0 transition-all focus-within:z-10"><input id=":S1:" autocomplete="name"
+                    placeholder=" "
+                    class="peer block w-full border border-neutral-300 bg-transparent px-6 pb-4 pt-12 text-base/6 text-neutral-950 ring-4 ring-transparent transition focus:border-neutral-950 focus:outline-none focus:ring-neutral-950/5 group-first:rounded-t-2xl group-last:rounded-b-2xl"
+                    type="text" name="name"><label for=":S1:"
+                    class="pointer-events-none absolute left-6 top-1/2 -mt-3 origin-left text-base/6 text-neutral-500 transition-all duration-200 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:font-semibold peer-focus:text-neutral-950 peer-[:not(:placeholder-shown)]:-translate-y-4 peer-[:not(:placeholder-shown)]:scale-75 peer-[:not(:placeholder-shown)]:font-semibold peer-[:not(:placeholder-shown)]:text-neutral-950">Name</label>
+                </div>
+                <div class="group relative z-0 transition-all focus-within:z-10"><input id=":S2:" autocomplete="email"
+                    placeholder=" "
+                    class="peer block w-full border border-neutral-300 bg-transparent px-6 pb-4 pt-12 text-base/6 text-neutral-950 ring-4 ring-transparent transition focus:border-neutral-950 focus:outline-none focus:ring-neutral-950/5 group-first:rounded-t-2xl group-last:rounded-b-2xl"
+                    type="email" name="email"><label for=":S2:"
+                    class="pointer-events-none absolute left-6 top-1/2 -mt-3 origin-left text-base/6 text-neutral-500 transition-all duration-200 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:font-semibold peer-focus:text-neutral-950 peer-[:not(:placeholder-shown)]:-translate-y-4 peer-[:not(:placeholder-shown)]:scale-75 peer-[:not(:placeholder-shown)]:font-semibold peer-[:not(:placeholder-shown)]:text-neutral-950">Email</label>
+                </div>
+                <div class="group relative z-0 transition-all focus-within:z-10"><input id=":S3:"
+                    autocomplete="organization" placeholder=" "
+                    class="peer block w-full border border-neutral-300 bg-transparent px-6 pb-4 pt-12 text-base/6 text-neutral-950 ring-4 ring-transparent transition focus:border-neutral-950 focus:outline-none focus:ring-neutral-950/5 group-first:rounded-t-2xl group-last:rounded-b-2xl"
+                    type="text" name="company"><label for=":S3:"
+                    class="pointer-events-none absolute left-6 top-1/2 -mt-3 origin-left text-base/6 text-neutral-500 transition-all duration-200 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:font-semibold peer-focus:text-neutral-950 peer-[:not(:placeholder-shown)]:-translate-y-4 peer-[:not(:placeholder-shown)]:scale-75 peer-[:not(:placeholder-shown)]:font-semibold peer-[:not(:placeholder-shown)]:text-neutral-950">Company</label>
+                </div>
+                <div class="group relative z-0 transition-all focus-within:z-10"><input id=":S4:" autocomplete="tel"
+                    placeholder=" "
+                    class="peer block w-full border border-neutral-300 bg-transparent px-6 pb-4 pt-12 text-base/6 text-neutral-950 ring-4 ring-transparent transition focus:border-neutral-950 focus:outline-none focus:ring-neutral-950/5 group-first:rounded-t-2xl group-last:rounded-b-2xl"
+                    type="tel" name="phone"><label for=":S4:"
+                    class="pointer-events-none absolute left-6 top-1/2 -mt-3 origin-left text-base/6 text-neutral-500 transition-all duration-200 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:font-semibold peer-focus:text-neutral-950 peer-[:not(:placeholder-shown)]:-translate-y-4 peer-[:not(:placeholder-shown)]:scale-75 peer-[:not(:placeholder-shown)]:font-semibold peer-[:not(:placeholder-shown)]:text-neutral-950">Phone</label>
+                </div>
+                <div class="group relative z-0 transition-all focus-within:z-10"><input id=":S5:" placeholder=" "
+                    class="peer block w-full border border-neutral-300 bg-transparent px-6 pb-4 pt-12 text-base/6 text-neutral-950 ring-4 ring-transparent transition focus:border-neutral-950 focus:outline-none focus:ring-neutral-950/5 group-first:rounded-t-2xl group-last:rounded-b-2xl"
+                    type="text" name="message"><label for=":S5:"
+                    class="pointer-events-none absolute left-6 top-1/2 -mt-3 origin-left text-base/6 text-neutral-500 transition-all duration-200 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:font-semibold peer-focus:text-neutral-950 peer-[:not(:placeholder-shown)]:-translate-y-4 peer-[:not(:placeholder-shown)]:scale-75 peer-[:not(:placeholder-shown)]:font-semibold peer-[:not(:placeholder-shown)]:text-neutral-950">Message</label>
+                </div>
+              </div>
+              <button
+                class="mt-10 inline-flex rounded-full px-4 py-1.5 text-sm font-semibold transition bg-neutral-950 text-white hover:bg-neutral-800"
+                type="submit"><span class="relative top-px">Let’s work together</span>
+                </button>
+            </form>
+          </div>
+          <div style="opacity: 1; transform: none;">
+            <h2 class="font-display text-base font-semibold text-neutral-950">Our offices</h2>
+            <p class="mt-6 text-base text-neutral-600">Prefer doing things in person? We don’t but we have to list our
+              addresses here for legal reasons.</p>
+            <ul role="list" class="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2">
+              <li>
+                <address class="text-sm not-italic text-neutral-600"><strong
+                    class="text-neutral-950">Copenhagen</strong><br>1 Carlsberg Gate<br>1260, København, Denmark</address>
+              </li>
+              <li>
+                <address class="text-sm not-italic text-neutral-600"><strong
+                    class="text-neutral-950">Billund</strong><br>24 Lego Allé<br>7190, Billund, Denmark</address>
+              </li>
+            </ul>
+            <div
+              class="mt-16 pt-16 relative before:absolute after:absolute before:bg-neutral-950 after:bg-neutral-950/10 before:left-0 before:top-0 before:h-px before:w-6 after:left-8 after:right-0 after:top-0 after:h-px">
+              <h2 class="font-display text-base font-semibold text-neutral-950">Email us</h2>
+              <dl class="mt-6 grid grid-cols-1 gap-8 text-sm sm:grid-cols-2">
+                <div>
+                  <dt class="font-semibold text-neutral-950">Careers</dt>
+                  <dd><a class="text-neutral-600 hover:text-neutral-950"
+                      href="mailto:careers@studioagency.com">careers@studioagency.com</a></dd>
+                </div>
+                <div>
+                  <dt class="font-semibold text-neutral-950">Press</dt>
+                  <dd><a class="text-neutral-600 hover:text-neutral-950"
+                      href="mailto:press@studioagency.com">press@studioagency.com</a></dd>
+                </div>
+              </dl>
+            </div>
+          <div
+            class="mt-16 pt-16 relative before:absolute after:absolute before:bg-neutral-950 after:bg-neutral-950/10 before:left-0 before:top-0 before:h-px before:w-6 after:left-8 after:right-0 after:top-0 after:h-px">
+            <h2 class="font-display text-base font-semibold text-neutral-950">Follow us</h2>
+            <ul role="list" class="flex gap-x-10 text-neutral-950 mt-6">
+              <li><a aria-label="Facebook" class="transition hover:text-neutral-700" href="https://facebook.com"><svg
+                    viewBox="0 0 24 24" aria-hidden="true" class="h-6 w-6 fill-current">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12Z">
+                    </path>
+                  </svg></a></li>
+              <li><a aria-label="Instagram" class="transition hover:text-neutral-700" href="https://instagram.com"><svg
+                    viewBox="0 0 24 24" aria-hidden="true" class="h-6 w-6 fill-current">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465.668.25 1.272.644 1.772 1.153.509.5.902 1.104 1.153 1.772.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.903 4.903 0 0 1-1.153 1.772c-.5.509-1.104.902-1.772 1.153-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.903 4.903 0 0 1-1.772-1.153 4.902 4.902 0 0 1-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 0 1 1.153-1.772A4.902 4.902 0 0 1 5.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63Zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.096 3.096 0 0 0-.748-1.15 3.098 3.098 0 0 0-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058ZM12 6.865a5.135 5.135 0 1 1 0 10.27 5.135 5.135 0 0 1 0-10.27Zm0 1.802a3.333 3.333 0 1 0 0 6.666 3.333 3.333 0 0 0 0-6.666Zm5.338-3.205a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4Z">
+                    </path>
+                  </svg></a></li>
+              <li><a aria-label="Twitter" class="transition hover:text-neutral-700" href="https://twitter.com"><svg
+                    viewBox="0 0 24 24" aria-hidden="true" class="h-6 w-6 fill-current">
+                    <path
+                      d="M8.29 20.253c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0 0 22 5.922a8.19 8.19 0 0 1-2.357.646 4.118 4.118 0 0 0 1.804-2.27 8.224 8.224 0 0 1-2.605.996 4.107 4.107 0 0 0-6.993 3.743A11.65 11.65 0 0 1 3.392 4.75a4.106 4.106 0 0 0 1.27 5.477A4.072 4.072 0 0 1 2.8 9.715v.052a4.105 4.105 0 0 0 3.292 4.022 4.095 4.095 0 0 1-1.853.07 4.108 4.108 0 0 0 3.834 2.85A8.232 8.232 0 0 1 2 18.41a11.616 11.616 0 0 0 6.29 1.84">
+                    </path>
+                  </svg></a></li>
+              <li><a aria-label="GitHub" class="transition hover:text-neutral-700" href="https://github.com"><svg
+                    viewBox="0 0 24 24" aria-hidden="true" class="h-6 w-6 fill-current">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2Z">
+                    </path>
+                  </svg></a></li>
+              <li><a aria-label="Dribbble" class="transition hover:text-neutral-700" href="https://dribbble.com"><svg
+                    viewBox="0 0 24 24" aria-hidden="true" class="h-6 w-6 fill-current">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2Zm6.605 4.61a8.502 8.502 0 0 1 1.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.42 25.42 0 0 0-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362ZM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.688 8.688 0 0 1 12 3.475Zm-3.633.803a53.889 53.889 0 0 1 3.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 0 1 4.729-5.975ZM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.523 8.523 0 0 1-2.191-5.705ZM12 20.547a8.482 8.482 0 0 1-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.32 35.32 0 0 1 1.823 6.475 8.402 8.402 0 0 1-3.341.684Zm4.761-1.465c-.086-.52-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 0 1-3.655 5.715Z">
+                    </path>
+                  </svg></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section></template>
 
 <script>
 import { onMounted, ref } from 'vue';
@@ -195,7 +292,20 @@ import { onMounted, ref } from 'vue';
 export default {
   setup() {
     const pageTitle = ref('Initial Page Title');
-    const insuarance = ref(["Motor vehicles", "Plant All Risk", "Contractors All Risk","Burglary/Theft cove","All Risk Insurance","Fire insurance","Marine Hull & Machinery","Fidelity guarantee"])
+    const insuarance = ref([
+      "Motor insurance ",
+      "Health Insurance",
+      "Fire insurance",
+      "Travel Insurance ",
+      "Life insurance ",
+      "Engineering insurance",
+      "Goods in transit insurance",
+      "Money insurance",
+      "Bonds",
+      "Property insurance",
+      "Business insurance",
+      "Burglary insurance"
+    ])
 
     // Function to change the page title
     const setPageTitle = (newTitle) => {
@@ -219,4 +329,42 @@ export default {
 
 <style>.custom-section {
   background-image: url(../assets/img/bg/1.jpg);
+}
+
+.is-typed span.typed {
+  colour: black;
+}
+
+.is-typed span.cursor {
+  display: inline-block;
+  width: 3px;
+  background-color: #fff;
+  animation: blink 1s infinite;
+}
+
+.is-typed span.underscore {
+  display: inline-flex;
+  width: 10px;
+  height: 1px;
+  align-items: flex-end;
+  background-color: #fff;
+  animation: blink 1s infinite;
+}
+
+.is-typed span.cursor.typing {
+  animation: none;
+}
+
+@keyframes blink {
+  49% {
+    background-color: #fff;
+  }
+
+  50% {
+    background-color: transparent;
+  }
+
+  99% {
+    background-color: transparent;
+  }
 }</style>
