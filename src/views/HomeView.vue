@@ -24,7 +24,7 @@
       <div class="grid grid-cols-1 gap-5 xl:gap-10 lg:grid-cols-3 items-center">
         <div class="col-span-1">
           <div class=" mb-10">
-            <h4 class="text-porange-700 text-xl font-medium capitalize mb-2">
+            <h4 class="text-porange-700 text-xl font-medium capitalize mb-2" v-wow="{ 'animation-name': 'fadeInUp','animation-duration': '1s'}">
               About Us
             </h4>
             <h2 class="text-4xl leading-snug font-bold text-interface-100 capitalize">
@@ -45,7 +45,7 @@
             <p>On behalf of the entire AMVIC Insurance Brokers team, we extend a warm and heartfelt welcome to you.</p>
           </div>
         </div>
-        <div class="col-span-1">
+        <div class="col-span-1 animate-bounce">
           <div>
             <img src="@/assets/img/bg/team.jpg" class="mx-auto" alt="">
           </div>
@@ -217,7 +217,7 @@
   <section class="contact pt-8" id="contact">
     <div class="conatiner">
       <div class="bg-gray-300 lg:h-2/3">
-    <iframe width="100%" height="450" frameborder="0" marginheight="0" marginwidth="0" title="map" scrolling="no" src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=%C4%B0zmir+(My%20Business%20Name)&ie=UTF8&t=&z=14&iwloc=B&output=embed" style=""></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.949353221044!2d39.24173377499508!3d-6.776019193220909!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x185c4d03434200b5%3A0x5f37c9979c9022e9!2sMwanga%20Tower!5e0!3m2!1sen!2stz!4v1696234580482!5m2!1sen!2stz" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
     </div>
     <div class="mx-auto max-w-7xl px-6 lg:px-8 mt-24 sm:mt-32 lg:mt-40">
