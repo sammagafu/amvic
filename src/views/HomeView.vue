@@ -24,7 +24,8 @@
       <div class="grid grid-cols-1 gap-5 xl:gap-10 lg:grid-cols-3 items-center">
         <div class="col-span-1">
           <div class=" mb-10">
-            <h4 class="text-porange-700 text-xl font-medium capitalize mb-2" v-wow="{ 'animation-name': 'fadeInUp','animation-duration': '1s'}">
+            <h4 class="text-porange-700 text-xl font-medium capitalize mb-2"
+              v-wow="{ 'animation-name': 'fadeInUp', 'animation-duration': '1s' }">
               About Us
             </h4>
             <h2 class="text-4xl leading-snug font-bold text-interface-100 capitalize">
@@ -90,58 +91,69 @@
   </section>
 
   <section class="py-36 bg-yellow-50" id="whychooseuse">
-        <div class="container mx-auto">
-            <div class="text-center max-w-xl mx-auto">
-                <!-- <h6 class="font-normal uppercase mb-2">Why <span class="font-semibold">Choosing Us</span></h6> -->
-                <h2 class="text-3xl font-semibold mb-3 uppercase">why choosing us</h2>
-                <p class="text-base font-normal text-gray-500">Our personal insurance offerings are designed to provide you and your loved ones with the protection and peace of mind you deserve.</p>
+    <div class="container mx-auto">
+      <div class="text-center max-w-xl mx-auto">
+        <!-- <h6 class="font-normal uppercase mb-2">Why <span class="font-semibold">Choosing Us</span></h6> -->
+        <h2 class="text-3xl font-semibold mb-3 uppercase">why choosing us</h2>
+        <p class="text-base font-normal text-gray-500">Our personal insurance offerings are designed to provide you and
+          your loved ones with the protection and peace of mind you deserve.</p>
+      </div>
+
+      <div class="mt-20">
+        <div class="grid lg:grid-cols-3 grid-cols-1 gap-10">
+          <div>
+            <div class="relative">
+              <div class="text-center">
+                <span
+                  class="inline-flex relative z-0 bg-blue-500/10 dark:bg-blue-100/5 h-32 w-32 items-center justify-center"
+                  style="border-radius: 28% 72% 50% 50%/26% 20% 80% 74%;">
+                  <img src="@/assets/img/icons/rating-stars.svg" alt="" class="p-6">
+                </span>
+                <h5 class="text-xl font-semibold mb-3 mt-5">Expertise and Experience</h5>
+                <p class="text-base font-normal text-gray-500">Benefit from our industry expertise, gained through years
+                  of experience in insurance, construction, and banking sectors.</p>
+              </div>
             </div>
+          </div><!-- end grid col -->
 
-            <div class="mt-20">
-                <div class="grid lg:grid-cols-3 grid-cols-1 gap-10">
-                    <div>
-                        <div class="relative">
-                            <div class="text-center">
-                                <span class="inline-flex relative z-0 bg-blue-500/10 dark:bg-blue-100/5 h-32 w-32 items-center justify-center" style="border-radius: 28% 72% 50% 50%/26% 20% 80% 74%;">
-                                  <img src="@/assets/img/icons/rating-stars.svg" alt="" class="p-6">
-                                </span>
-                                <h5 class="text-xl font-semibold mb-3 mt-5">Expertise and Experience</h5>
-                                <p class="text-base font-normal text-gray-500">Benefit from our industry expertise, gained through years of experience in insurance, construction, and banking sectors.</p>
-                            </div>
-                        </div>
-                    </div><!-- end grid col -->
-
-                    <div>
-                        <div class="relative">
-                            <div class="text-center">
-                                <span class="inline-flex relative z-0 bg-emerald-500/10 dark:bg-emerald-100/5 h-32 w-32 items-center justify-center" style="border-radius: 28% 72% 50% 50%/26% 20% 80% 74%;">
-                                  <img src="@/assets/img/icons/unique.svg" alt="" class="p-6">
-                                </span>
-                                <h5 class="text-xl font-semibold mb-3 mt-5">Unique products</h5>
-                                <p class="text-gray-600 dark:text-gray-400">We tailor insurance solutions to your unique needs, whether it's personal, commercial, or industry-specific coverage.</p>
-                            </div>
-                        </div>
-                    </div><!-- end grid col -->
-
-                    <div>
-                        <div class="text-center">
-                            <span class="inline-flex relative z-0 bg-amber-500/10 dark:bg-amber-100/5 h-32 w-32 items-center justify-center" style="border-radius: 28% 72% 50% 50%/26% 20% 80% 74%;">
-                              <img src="@/assets/img/icons/group.svg" alt="" class="p-6">
-                            </span>
-                            <h5 class="text-xl font-semibold mb-3 mt-5">Customer-Centric</h5>
-                            <p class="text-gray-600 dark:text-gray-400">Our commitment to excellent customer care ensures you're not just a policyholder but a valued partner in securing your future.</p>
-                        </div>
-                    </div><!-- end grid col -->
-                </div><!-- Grid End -->
+          <div>
+            <div class="relative">
+              <div class="text-center">
+                <span
+                  class="inline-flex relative z-0 bg-emerald-500/10 dark:bg-emerald-100/5 h-32 w-32 items-center justify-center"
+                  style="border-radius: 28% 72% 50% 50%/26% 20% 80% 74%;">
+                  <img src="@/assets/img/icons/unique.svg" alt="" class="p-6">
+                </span>
+                <h5 class="text-xl font-semibold mb-3 mt-5">Unique products</h5>
+                <p class="text-gray-600 dark:text-gray-400">We tailor insurance solutions to your unique needs, whether
+                  it's personal, commercial, or industry-specific coverage.</p>
+              </div>
             </div>
-        </div><!-- Container End -->
-    </section>
+          </div><!-- end grid col -->
+
+          <div>
+            <div class="text-center">
+              <span
+                class="inline-flex relative z-0 bg-amber-500/10 dark:bg-amber-100/5 h-32 w-32 items-center justify-center"
+                style="border-radius: 28% 72% 50% 50%/26% 20% 80% 74%;">
+                <img src="@/assets/img/icons/group.svg" alt="" class="p-6">
+              </span>
+              <h5 class="text-xl font-semibold mb-3 mt-5">Customer-Centric</h5>
+              <p class="text-gray-600 dark:text-gray-400">Our commitment to excellent customer care ensures you're not
+                just a policyholder but a valued partner in securing your future.</p>
+            </div>
+          </div><!-- end grid col -->
+        </div><!-- Grid End -->
+      </div>
+    </div><!-- Container End -->
+  </section>
 
   <section class="my-48" id="services">
     <div class="max-w-screen-xl mx-auto my-24">
       <div class="hidden md:block text-2xl font-medium mb-[100px]">
         <div class="text-3xl font-semibold mb-3 uppercase">Our Services</div>
-        <div class="">Whether it’s protecting your dream home, your cherished possessions, or planning for retirement, our personalized approach ensures that your unique priorities are covered with care.</div>
+        <div class="">Whether it’s protecting your dream home, your cherished possessions, or planning for retirement, our
+          personalized approach ensures that your unique priorities are covered with care.</div>
       </div>
 
       <div class="mx-auto max-w-7xl px-6 lg:px-8 mt-16">
@@ -200,15 +212,24 @@
       </div>
       <div class="mt-14">
         <div class="grid md:grid-cols-9 grid-cols-2 gap-2 items-center aos-init" data-aos="fade-up">
-          <div><img src="@/assets/img/partners/jubilee.png" alt="brand-logo" class="w-32 mx-auto grayscale hover:filter-none"></div>
-          <div><img src="@/assets/img/partners/icea.png" alt="brand-logo" class="w-32 mx-auto grayscale hover:filter-none"></div>
-          <div><img src="@/assets/img/partners/uap.png" alt="brand-logo" class="w-32 mx-auto grayscale hover:filter-none"></div>
-          <div><img src="@/assets/img/partners/sanlam.png" alt="brand-logo" class="w-32 mx-auto grayscale hover:filter-none"></div>
-          <div><img src="@/assets/img/partners/mayfair.png" alt="brand-logo" class="w-32 mx-auto grayscale hover:filter-none"></div>
-          <div><img src="@/assets/img/partners/phoenix.png" alt="brand-logo" class="w-32 mx-auto grayscale hover:filter-none"></div>
-          <div><img src="@/assets/img/partners/heritage.png" alt="brand-logo" class="w-32 mx-auto grayscale hover:filter-none"></div>
-          <div><img src="@/assets/img/partners/assembly.png" alt="brand-logo" class="w-32 mx-auto grayscale hover:filter-none"></div>
-          <div><img src="@/assets/img/partners/strategis.png" alt="brand-logo" class="w-32 mx-auto grayscale hover:filter-none"></div>
+          <div><img src="@/assets/img/partners/jubilee.png" alt="brand-logo"
+              class="w-32 mx-auto grayscale hover:filter-none"></div>
+          <div><img src="@/assets/img/partners/icea.png" alt="brand-logo"
+              class="w-32 mx-auto grayscale hover:filter-none"></div>
+          <div><img src="@/assets/img/partners/uap.png" alt="brand-logo" class="w-32 mx-auto grayscale hover:filter-none">
+          </div>
+          <div><img src="@/assets/img/partners/sanlam.png" alt="brand-logo"
+              class="w-32 mx-auto grayscale hover:filter-none"></div>
+          <div><img src="@/assets/img/partners/mayfair.png" alt="brand-logo"
+              class="w-32 mx-auto grayscale hover:filter-none"></div>
+          <div><img src="@/assets/img/partners/phoenix.png" alt="brand-logo"
+              class="w-32 mx-auto grayscale hover:filter-none"></div>
+          <div><img src="@/assets/img/partners/heritage.png" alt="brand-logo"
+              class="w-32 mx-auto grayscale hover:filter-none"></div>
+          <div><img src="@/assets/img/partners/assembly.png" alt="brand-logo"
+              class="w-32 mx-auto grayscale hover:filter-none"></div>
+          <div><img src="@/assets/img/partners/strategis.png" alt="brand-logo"
+              class="w-32 mx-auto grayscale hover:filter-none"></div>
         </div>
       </div>
     </div>
@@ -217,8 +238,11 @@
   <section class="contact pt-8" id="contact">
     <div class="conatiner">
       <div class="bg-gray-300 lg:h-2/3">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.949353221044!2d39.24173377499508!3d-6.776019193220909!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x185c4d03434200b5%3A0x5f37c9979c9022e9!2sMwanga%20Tower!5e0!3m2!1sen!2stz!4v1696234580482!5m2!1sen!2stz" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-  </div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.949353221044!2d39.24173377499508!3d-6.776019193220909!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x185c4d03434200b5%3A0x5f37c9979c9022e9!2sMwanga%20Tower!5e0!3m2!1sen!2stz!4v1696234580482!5m2!1sen!2stz"
+          width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
     </div>
     <div class="mx-auto max-w-7xl px-6 lg:px-8 mt-24 sm:mt-32 lg:mt-40">
       <div class="mx-auto max-w-2xl lg:max-w-none">
@@ -260,18 +284,20 @@
               <button
                 class="mt-10 inline-flex rounded-full px-4 py-1.5 text-sm font-semibold transition bg-neutral-950 text-white hover:bg-neutral-800"
                 type="submit"><span class="relative top-px">Let’s work together</span>
-                </button>
+              </button>
             </form>
           </div>
           <div style="opacity: 1; transform: none;">
             <h2 class="font-display text-base font-semibold text-neutral-950">Our offices</h2>
-            <p class="mt-6 text-base text-neutral-600">For your convenience, you can also reach us by filling out our online contact form on our website.
+            <p class="mt-6 text-base text-neutral-600">For your convenience, you can also reach us by filling out our
+              online contact form on our website.
 
-</p>
+            </p>
             <ul role="list" class="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2">
               <li>
                 <address class="text-sm not-italic text-neutral-600"><strong
-                    class="text-neutral-950">Tanzania</strong><br>21 Floor Mwanga Tower <br> New Bagaomo Road, Makubusho<br>Dar es salaam </address>
+                    class="text-neutral-950">Tanzania</strong><br>21 Floor Mwanga Tower <br> New Bagaomo Road,
+                  Makubusho<br>Dar es salaam </address>
               </li>
             </ul>
             <div
@@ -285,11 +311,11 @@
                 </div>
               </dl>
             </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 </template>
 
 <script>
@@ -333,7 +359,8 @@ export default {
 };
 </script>
 
-<style>.custom-section {
+<style>
+.custom-section {
   background-image: url(../assets/img/bg/1.jpg);
 }
 
