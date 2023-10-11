@@ -282,7 +282,7 @@
                 </div>
               </div>
               <button
-                class="mt-10 inline-flex rounded-full px-4 py-1.5 text-sm font-semibold transition bg-neutral-950 text-white hover:bg-neutral-800"
+                class="mt-10 inline-flex rounded-full px-4 py-2.5 text-sm font-semibold transition bg-neutral-950 text-white hover:bg-neutral-800"
                 type="submit"><span class="relative top-px">Let’s work together</span>
               </button>
             </form>
